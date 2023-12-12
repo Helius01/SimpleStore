@@ -1,4 +1,5 @@
 namespace SimpleShop.src.Api.Utils;
+#pragma warning disable CS1591 
 public class Either<L, R>
 {
     private readonly L? left;

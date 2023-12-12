@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SimpleShop.src.Api.Domains;
 
 namespace SimpleShop.src.Api.Data.DomainConfigurations;
-
+#pragma warning disable CS1591 
 public class OrderConfiguration : IEntityTypeConfiguration<Order>
 {
     public void Configure(EntityTypeBuilder<Order> builder)
